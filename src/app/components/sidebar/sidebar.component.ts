@@ -16,6 +16,13 @@ export const ROUTES: RouteInfo[] = [
     class: ""
   },
   {
+    path: "/restaurants",
+    title: "Cardápio",
+    rtlTitle: "لوحة القيادة",
+    icon: "icon-atom",
+    class: ""
+  },
+  {
     path: "/icons",
     title: "Icons",
     rtlTitle: "الرموز",

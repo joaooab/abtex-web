@@ -12,9 +12,12 @@ import { NotificationsComponent } from "../../pages/notifications/notifications.
 import { UserComponent } from "../../pages/user/user.component";
 import { TablesComponent } from "../../pages/tables/tables.component";
 import { TypographyComponent } from "../../pages/typography/typography.component";
+import { MenusComponent } from '../../pages/menus/menus.component';
+import { RestaurantsComponent } from '../../pages/restaurants/restaurants.component';
 // import { RtlComponent } from "../../pages/rtl/rtl.component";
 
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
   imports: [
@@ -22,6 +25,7 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
     RouterModule.forChild(AdminLayoutRoutes),
     FormsModule,
     HttpClientModule,
+    MatGridListModule,
     NgbModule,
   ],
   declarations: [
@@ -29,6 +33,8 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
     UserComponent,
     TablesComponent,
     IconsComponent,
+    MenusComponent,
+    RestaurantsComponent,
     TypographyComponent,
     NotificationsComponent,
     MapComponent,
