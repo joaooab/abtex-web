@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ComponentsModule } from './components/components.module';
 import { SnackBarMensagemModule } from './components/snack-bar-mensagem/snack-bar-mensagem.module';
 
+
 @NgModule({
   imports: [
     BrowserAnimationsModule,
