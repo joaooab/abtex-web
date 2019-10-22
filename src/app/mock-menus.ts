@@ -1,5 +1,5 @@
-import { Menu } from "./menu";
-import { Item } from './item';
+import { Menu } from "./model/menu";
+import { Item } from './model/item';
 
 export const MENUS: Menu[] = [
     { id: "1", idCompany: "1", nome: 'Cardápio 1', itens: [new Item("1", "arroz"), new Item("2", "feijão")] },

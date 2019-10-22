@@ -1,4 +1,4 @@
-import { Restaurant } from './restaurant';
+import { Restaurant } from './model/restaurant';
 
 export const RESTAURANTS: Restaurant[] = [
     { id: "1", nome: 'Restaurante 1', cnpj: "123456789" },
